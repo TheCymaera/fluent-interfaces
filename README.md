@@ -10,14 +10,13 @@ npm install fluent-interfaces
 Many JavaScript libraries use fluent-interfaces, but they are not at all ***fluent*** when working with 3rd party functions.
 ```typescript
 externalFunction3(
-	externalFunction2(
-		externalFunction1(
-			new MyClass()
-			.setText("Foo")
-			.setDescription("Bar")
-			.setIcon("fa","fa-icon")
-		)
-	)
+    externalFunction2(
+        externalFunction1(
+            new Widget()
+            .setTitle("Hello World!")
+            .setDescription("Welcome to my website!")
+        )
+    )
 )
 ```
 
