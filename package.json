@@ -1,0 +1,36 @@
+{
+	"name": "fluent-interfaces",
+	"version": "1.0.0",
+	"description": "A library for working with fluent interfaces.",
+	"main": "dst/index.js",
+	"type": "module",
+	"files": [
+		"dst/**"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"build-watch": "tsc -p tsconfig.json --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheCymaera/fluent-interfaces.git"
+	},
+	"keywords": [
+		"fluent",
+		"interfaces",
+		"fluency",
+		"method",
+		"chain",
+		"chaining",
+		"cascade",
+		"cascading",
+		"transform",
+		"transforming"
+	],
+	"author": "Cymaera",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/TheCymaera/fluent-interfaces/issues"
+	},
+	"homepage": "https://github.com/TheCymaera/fluent-interfaces/"
+}
